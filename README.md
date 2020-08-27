@@ -3,6 +3,5 @@
 
 ;    ;
  ____
-kazkasmmmmmmmm
 
-smth new
+kazkas
