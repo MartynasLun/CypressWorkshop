@@ -1,0 +1,4 @@
+node_modules
+cypress/integration/examples
+package-lock.json
+debug.log
