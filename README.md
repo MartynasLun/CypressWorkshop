@@ -1,2 +1,0 @@
-# CypressWorkshop
-TEstas Kurkarolis

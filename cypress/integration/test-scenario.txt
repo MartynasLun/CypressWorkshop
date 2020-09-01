@@ -1,0 +1,42 @@
+TS1 - Testing "Add" operation;
+    TC1 - Testing "Add" operation with positive values;
+    TC2 - Testing "Add" operation with negative values;
+    TC3 - Testing "Add" operation with null values;
+    TC4 - Testing "Add" operation with NaN values;
+    TC5 - Testing "Add" operation with special characters values;
+    TC6 - Testing "Add" operation with spaces before/after values;
+
+TS2 - Testing "Subtract" operation;
+    TC7 - Testing "Subtract" operation with positive values;
+    TC8 - Testing "Subtract" operation with negative values;
+    TC9 - Testing "Subtract" operation with null values;
+    TC10 - Testing "Subtract" operation with NaN values;
+    TC11 - Testing "Subtract" operation with special characters values;
+    TC12 - Testing "Subtract" operation with spaces before/after values;
+
+TS3 - Testing "Multiply" operation;
+    TC13 - Testing "Multiply" operation with positive values;
+    TC14 - Testing "Multiply" operation with negative values;
+    TC15 - Testing "Multiply" operation with null values;
+    TC16 - Testing "Multiply" operation with NaN values;
+    TC17 - Testing "Multiply" operation with special characters values;
+    TC18 - Testing "Multiply" operation with spaces before/after values;
+
+TS4 - Testing "Divide" operation;
+    TC19 - Testing "Divide" operation with positive values;
+    TC20 - Testing "Divide" operation with negative values;
+    TC21 - Testing "Divide" operation with null values;
+    TC22 - Testing "Divide" operation with NaN values;
+    TC23 - Testing "Divide" operation with special characters values;
+    TC24 - Testing "Divide" operation with spaces before/after values;
+
+TS5 - Testing "Concatenate" operation;
+    TC25 - Testing "Concatenate" operation with positive values;
+    TC26 - Testing "Concatenate" operation with null values;
+    TC27 - Testing "Concatenate" operation with NaN values;
+    TC28 - Testing "Concatenate" operation with special characters values;
+    TC29 - Testing "Concatenate" operation with spaces before/after values;
+
+TS6 - Testing additional features;
+    TC30 - Testing "Integers only" feature;
+    TC31 - Testing [Clear] button.
