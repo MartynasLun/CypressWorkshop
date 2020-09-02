@@ -6,7 +6,7 @@ var homepage = new Homepage;
 beforeEach("Executes before each test", ()=>{
     cy.visit("/")
 })
-it("Loads the duckduckGO page", () =>{
+/*it("Loads the duckduckGO page", () =>{
     //cy.visit("https://www.duckduckgo.com")
     cy.contains("Tired of being tracked online? We can help.")
 })
@@ -54,3 +54,49 @@ it("should redirect to first result", ()=> {
     homepage.getSearchButton().type("!wiki")
     cy.get("#search_button_homepage").click()
     })
+
+ describe('should generate secure passwords', () => {
+        [8, 32, 64].forEach((passwordLenght) => {
+        it('generates password with length: ' + passwordLenght, () => {
+            cy.visit("https://www.duckduckgo.com")
+        cy.get('#search_form_homepage').type("password " + passwordLenght)
+        cy.get('#search_button_homepage').click();
+        cy.get('.c-base__title').then(($title) => {
+        cy.get($title).invoke('text').its('length').should('be.eq', passwordLenght)
+        })
+     })
+     })
+})
+describe('should ignore generating secure passwords', () => {
+    [1, 7, 65, 512].forEach((event) => {
+    it('triggers event: ' + event, () => {
+        cy.visit("https://www.duckduckgo.com")
+    cy.get('#search_form_homepage').type("password " + event)
+    cy.get('#search_button_homepage').click();
+    cy.get('.c-base__title').should('not.exist');
+    })
+    })
+    })
+
+  
+    it.only("should launch a stop watch", () => {
+        cy.visit("https://www.duckduckgo.com")
+    cy.get('#search_form_homepage').type("stopwatch")
+    cy.get('#search_button_homepage').click();
+    cy.get('#total_time').contains("00:00.00");
+    cy.get('.start').click();
+    cy.get('.stop').click();
+    }) */
+const sizes = ['iphone-6', 'ipad-2', [1024, 768]]
+sizes.forEach((size) => {
+it(`Should display logo on ${size} screen`, () => {
+if (Cypress._.isArray(size)) {
+cy.viewport(size[0], size[1])
+} else {
+cy.viewport(size)
+}
+cy.visit("https://www.duckduckgo.com")
+cy.get('#search_form_input_homepage').type("stopwatch")
+cy.get('#search_button_homepage').click({ force: true });
+})
+})
