@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/MartynasLun/CypressWorkshop#readme",
   "dependencies": {
-    "cypress": "^5.0.0"
+    "cypress": "^5.1.0"
   }
 }

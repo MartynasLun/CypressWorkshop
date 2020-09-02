@@ -23,7 +23,6 @@ it("closes banner when X is pressed", ()=>{
     cy.get('.js-badge-main-msg > .ddgsi').click();
     cy.get('.badge-link__thumb__img').should("not.be.visible");
 })
-
 it("displays table with commands", ()=>{
     cy.get("#search_form_homepage").type("microsoft word cheat sheet");
     homepage.getSearchButton().click();
