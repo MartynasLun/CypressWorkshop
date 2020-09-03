@@ -1,7 +1,7 @@
 {
   "name": "cypressworkshop",
   "version": "1.0.0",
-  "description": "Automation Workshop",
+  "description": "TEstas Kurkarolis",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/MartynasLun/CypressWorkshop#readme",
   "dependencies": {
-    "cypress": "^5.0.0"
+    "cypress": "^5.1.0"
   }
 }
