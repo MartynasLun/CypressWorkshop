@@ -1,2 +1,2 @@
 # CypressWorkshop
-Automation Workshop
+TEstas Kurkarolis
