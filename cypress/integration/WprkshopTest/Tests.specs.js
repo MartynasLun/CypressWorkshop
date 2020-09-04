@@ -43,7 +43,7 @@ var homepage = new Homepage
 //     homepage.clickSearchButton()
 //     })
 
-it("Lets go", ()=> {
-        cy.visit("http://www.eismosaugumasbendruomenese.lt/admin/")
+// it("Lets go", ()=> {
+//         cy.visit("http://www.eismosaugumasbendruomenese.lt/admin/")
       
-        })
+//         })
