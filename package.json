@@ -1,5 +1,4 @@
 {
-calculator_homework_Audre_Bartaseviciute
   "name": "cypressworkshopnew",
   "version": "1.0.0",
   "description": ";    ;\r  ____",
@@ -10,11 +9,6 @@ calculator_homework_Audre_Bartaseviciute
   "devDependencies": {
     "mochawesome": "^6.1.1"
   },
-  "name": "cypressworkshop",
-  "version": "1.0.0",
-  "description": "Automation Workshop",
-  "main": "index.js",
-master
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -27,12 +21,5 @@ master
   "bugs": {
     "url": "https://github.com/MartynasLun/CypressWorkshop/issues"
   },
-calculator_homework_Audre_Bartaseviciute
   "homepage": "https://github.com/MartynasLun/CypressWorkshop#readme"
-=======
-  "homepage": "https://github.com/MartynasLun/CypressWorkshop#readme",
-  "dependencies": {
-    "cypress": "^5.0.0"
-  }
-master
 }
