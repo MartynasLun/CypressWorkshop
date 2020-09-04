@@ -1,7 +1,0 @@
-# CypressWorkshop
-
-
-;    ;
- ____
-
-smth new

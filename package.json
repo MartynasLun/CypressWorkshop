@@ -1,0 +1,25 @@
+{
+  "name": "cypressworkshopnew",
+  "version": "1.0.0",
+  "description": ";    ;\r  ____",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^5.1.0"
+  },
+  "devDependencies": {
+    "mochawesome": "^6.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartynasLun/CypressWorkshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartynasLun/CypressWorkshop/issues"
+  },
+  "homepage": "https://github.com/MartynasLun/CypressWorkshop#readme"
+}
