@@ -1,7 +1,2 @@
 # CypressWorkshop
-
-
-;    ;
- ____
-
-smth new
+TEstas Kurkarolis
