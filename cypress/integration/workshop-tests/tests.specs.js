@@ -6,7 +6,7 @@ var homepage = new Homepage()
 var resultpage = new Resultpage()
 
 beforeEach("Executes before each test", () =>{
-    cy.visit("")
+    cy.visit("https://duckduckgo.com")
 })
 
 it("Loads the duckduckGo page", ()=>{
