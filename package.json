@@ -1,0 +1,22 @@
+{
+  "name": "cypress_gabrielita",
+  "version": "1.0.0",
+  "description": "nereikia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartynasLun/CypressWorkshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartynasLun/CypressWorkshop/issues"
+  },
+  "homepage": "https://github.com/MartynasLun/CypressWorkshop#readme",
+  "dependencies": {
+    "cypress": "^5.1.0"
+  }
+}
