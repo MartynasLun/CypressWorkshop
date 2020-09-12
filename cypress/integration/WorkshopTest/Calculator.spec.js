@@ -33,14 +33,14 @@ describe("verify calculator performs calculations", () => {
       calculatorOB.getClearButton();
     });
 
-    it.only("shows the first number field's error message when alphabet symbol is calculating", () => {
+    it.only("shows the first number field's error message when alphabet symbol is calculating on every build", () => {
       calculatorOB.getBuild(build);
       calculatorOB.getNumber1().clear().type(abc);
       calculatorOB.getCalculateButton();
       calculatorOB.getErrorMessage();
     });
 
-    it("shows the second number field's error message when alphabet symbol is calculating", () => {
+    it("shows the second number field's error message when alphabet symbol is calculating on every build", () => {
       calculatorOB.getBuild(build);
       calculatorOB.getNumber2().clear().type(abc);
       calculatorOB.getCalculateButton();
