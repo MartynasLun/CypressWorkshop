@@ -8,10 +8,13 @@ beforeEach('Executes before each test', () => {
     cy.visit('/BasicCalculator');
 })
 
+let selectBuild = ['Prototype', 1, 2, 3, 4, 5, 6, 7, 8, 9],
+
 // 1 build add
 
 it('1 build add calculation failure', () => {
-    homepage.getSelectBuild().select('1').should('have.value', '1');
+    for(let i = 0, i <= selectBuild, i++);
+    homepage.getSelectBuild().select(selectBuild[i]);
     homepage.getNumber1Field().type(3);
     homepage.getNumber2Field().type(-5);
     homepage.clickCalculateButton();
